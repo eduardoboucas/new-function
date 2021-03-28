@@ -5,7 +5,7 @@ const createFunctionAndPrintResult = async () => {
   try {
     const { name, path } = await createFunction()
 
-    console.log(`✨ It's done! ✨`)
+    console.log(`✨ Created ${name} ✨`)
     console.log('')
     console.log(`💾 ${path}`)
     console.log(`🔗 /.netlify/functions/${name}`)
