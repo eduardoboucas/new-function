@@ -1,11 +1,11 @@
-[![Build](https://github.com/netlify/new-function/workflows/Build/badge.svg)](https://github.com/netlify/new-function/actions)
-[![Node](https://img.shields.io/node/v/@netlify/new-function.svg?logo=node.js)](https://www.npmjs.com/package/@netlify/new-function)
+# New Netlify Function
 
-# new-function
+[![Build](https://github.com/eduardoboucas/new-function/workflows/Build/badge.svg)](https://github.com/eduardoboucas/new-function/actions)
+[![Node](https://img.shields.io/node/v/@eduardoboucas/new-function.svg?logo=node.js)](https://www.npmjs.com/package/@eduardoboucas/new-function)
 
-Update me!
+A simple utility for creating a new Netlify Function.
 
-## Contributors
+> 💡 If you're looking for a more advanced starting point and different customisation options, consider using the
+> [Netlify CLI](https://cli.netlify.com/commands/functions#functionscreate).
 
-Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for instructions on how to set up and work on this repository. Thanks
-for contributing!
+To add a new function to your project, run `npx new-function`.
