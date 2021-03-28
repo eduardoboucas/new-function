@@ -1,6 +1,6 @@
 {
   "name": "new-function",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "A utility to create a new Netlify Function",
   "files": [
     "src/**/*.js",
