@@ -15,5 +15,5 @@ That's it!
 
 ![Screenshot](https://user-images.githubusercontent.com/4162329/112762116-098e9c80-8ff6-11eb-9b10-ca823f3ec9d9.png)
 
-> 💡 If you're looking for a more advanced starting point and different customisation options, consider using the
+> 💡 If you're looking for a more advanced starting point and different customization options, consider using the
 > [Netlify CLI](https://cli.netlify.com/commands/functions#functionscreate).
