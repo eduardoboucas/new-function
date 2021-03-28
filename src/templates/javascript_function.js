@@ -11,7 +11,7 @@ exports.handler = async (event, context) => {
     // 👍 Return 200 when the request has been successful.
     statusCode: 200,
 
-    // 💬 The response is a string. To return JSON, use JSON.stringify().
+    // 💬 The response body is a string. To return JSON, use JSON.stringify().
     body: JSON.stringify({ message: `Hello, ${queryStringParameters.name}` }),
   }
 }
