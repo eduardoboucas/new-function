@@ -1,12 +1,13 @@
 {
-  "name": "@netlify/new-function",
-  "private": true,
+  "name": "new-function",
   "version": "0.1.0",
   "description": "A utility to create a new Netlify Function",
   "files": [
     "src/**/*.js",
     "!src/**/*.test.js"
   ],
+  "main": "src/main.js",
+  "bin": "src/bin.js",
   "scripts": {
     "prepublishOnly": "npm ci && npm test",
     "test": "run-s format test:dev",
@@ -27,6 +28,9 @@
     "eslint": "--ignore-path .gitignore --cache --format=codeframe --max-warnings=0 \"{src,scripts,.github}/**/*.{js,md,html}\" \"*.{js,md,html}\" \".*.{js,md,html}\"",
     "prettier": "--ignore-path .gitignore --loglevel=warn \"{src,scripts,.github}/**/*.{js,md,yml,json,html}\" \"*.{js,yml,json,html}\" \".*.{js,yml,json,html}\" \"!**/package-lock.json\" \"!package-lock.json\""
   },
+  "eslintIgnore": [
+    "src/templates/*.js"
+  ],
   "ava": {
     "verbose": true
   },
@@ -36,13 +40,17 @@
       "pre-push": "npm run format"
     }
   },
-  "keywords": [],
+  "keywords": [
+    "netlify",
+    "functions",
+    "serverless"
+  ],
   "license": "MIT",
-  "repository": "netlify/new-function",
+  "repository": "eduardoboucas/new-function",
   "bugs": {
-    "url": "https://github.com/netlify/new-function/issues"
+    "url": "https://github.com/eduardoboucas/new-function/issues"
   },
-  "author": "Netlify Inc.",
+  "author": "Eduardo Bouças <mail@eduardoboucas.com>",
   "directories": {
     "test": "test"
   },
@@ -56,6 +64,6 @@
     "nyc": "^15.0.0"
   },
   "engines": {
-    "node": ">=8.3.0"
+    "node": ">=10.0.0"
   }
 }
