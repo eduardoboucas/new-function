@@ -1,7 +1,7 @@
 # New Netlify Function
 
 [![Build](https://github.com/eduardoboucas/new-function/workflows/Build/badge.svg)](https://github.com/eduardoboucas/new-function/actions)
-[![Node](https://img.shields.io/node/v/@eduardoboucas/new-function.svg?logo=node.js)](https://www.npmjs.com/package/@eduardoboucas/new-function)
+[![Node](https://img.shields.io/node/v/new-function.svg?logo=node.js)](https://www.npmjs.com/package/new-function)
 
 A simple utility for creating a new Netlify Function.
 
