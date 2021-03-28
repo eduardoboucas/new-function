@@ -11,7 +11,7 @@ From the root directory of your project, run:
 npx new-function
 ```
 
-That's it!
+That's it! You'll get a new function created from [a template](https://github.com/eduardoboucas/new-function/blob/master/src/templates/javascript_function.js).
 
 ![Screenshot](https://user-images.githubusercontent.com/4162329/112762116-098e9c80-8ff6-11eb-9b10-ca823f3ec9d9.png)
 
